@@ -101,8 +101,3 @@ while game_on:
         if turn > 9:
             game_on = False
 
-
-# if players == 1 and turn % 2 == 0:
-#     mark = 'O'
-#     player = 'Robot.XO'
-#     num = random.randint(1, 9) in grid_list
