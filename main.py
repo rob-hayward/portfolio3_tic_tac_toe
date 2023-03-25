@@ -92,7 +92,7 @@ while game_on:
         mark = 'X'
         player = 1
         num = int(input(f'Player {player}, choose an available number between 1-9:'))
-    #     In case player chooses an option that isn't available.
+    #     Prompts player if they choose an option that isn't available.
     if num not in grid_list:
         print(f'Sorry player {player}, that number is not available, please try again.')
     #     Updates board and checks for end of game criteria.
